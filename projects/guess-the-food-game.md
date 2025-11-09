@@ -1,4 +1,4 @@
-# Guess The Food Game
+# Guess The Food
 
 <img src="media/guess_the_food_8ec4dc15ca.png" class="media-img" />
 

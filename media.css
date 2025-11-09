@@ -16,7 +16,7 @@
 
 .media-card .media-content .media-img {
   width: var(--img-width);
-  height: auto;
+  height: 100%;
   float: left;
 }
 

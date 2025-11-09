@@ -11,6 +11,11 @@
   color: white
 }
 
+#content > * {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 p {
   margin-bottom: 8px;
 }

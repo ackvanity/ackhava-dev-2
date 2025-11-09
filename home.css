@@ -14,9 +14,9 @@
 }
 
 .home-split-card > div.img-wrap {
-  flex: 1 1 320px; /* grow, allow shrink, preferred basis */
-  min-width: 220px;
-  max-width: 320px;
+  flex: 1 1 120px; /* grow, allow shrink, preferred basis */
+  min-width: 360px;
+  /* max-width: 320px; */
   box-sizing: border-box;
 }
 
