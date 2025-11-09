@@ -1,0 +1,52 @@
+.media-card {
+  container-type: inline-size;
+  container-name: media-card;
+  --img-width: 300px;
+  --content-width: calc(100% - var(--img-width));
+  padding-bottom: 32px;
+}
+
+.media-img {
+  aspect-ratio: 4/3;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.media-card .media-content .media-img {
+  width: var(--img-width);
+  height: auto;
+  float: left;
+}
+
+.media-card .media-content > :not(img), .media-card > a {
+  width: var(--content-width);
+  height: auto;
+  float: right;
+  padding-left: 32px;
+}
+
+.media-card > a {
+  margin-top: 16px;
+}
+
+.media-card .media-content .media-container {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@container media-card (max-width: 500px) {
+  .media-card .media-content {
+    --img-width: 100%;
+    --content-width: 100%;
+  }
+
+  .media-card .media-content > :not(img), .media-card > a {
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,107 @@
+* {
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  color: white
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #3a96dd;
+  text-decoration: underline;
+}
+
+h1, .h1 {
+  margin-bottom: 16px;
+  margin-top: 24px;
+  font-size: 48px;
+}
+
+h2, .h2 {
+  font-size: 36px;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+h3, .h3 {
+  font-size: 20px;
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+
+h4, .h4 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+body {
+  background-color: #300a24;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  background-color: #300a24;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+em {
+  font-style: italic;;
+}
+
+.navbar {
+  background-color: #300a24;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Cascadia Mono', monospace;
+  border-bottom: 1px solid #444;
+  padding-left: max(calc((100vw - min(100%, 960px)) / 2 + 16px), 16px);
+  padding-right: max(calc((100vw - min(100%, 960px)) / 2 + 16px), 16px);
+}
+
+.nav-brand {
+  color: #3a96dd;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-brand a {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #3a96dd;
+}

@@ -1,0 +1,46 @@
+#terminal {
+  color: white;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+#content:has(#terminal) {
+  background-color: #150410;
+}
+
+#terminal .prompt {
+  color: #3a96dd;
+}
+
+#terminal .error::before {
+  content: "ERROR: ";
+  color: #c01c28;
+  font-weight: bold;
+}
+
+#terminal .error {
+  color: #c01c28;
+}
+
+@keyframes blink {
+  0%, 50% {
+    background-color: white;
+  }
+  50.01%, 100% {
+    background-color: transparent;
+  }
+}
+
+#terminal #cursor {
+  display: inline-block;
+  color: transparent;
+  background-color: white;
+  margin-left: 2px;
+  opacity: 0;
+}
+
+#terminal:focus #cursor {
+  opacity: 1;
+  animation: blink 2s step-start infinite;
+}
