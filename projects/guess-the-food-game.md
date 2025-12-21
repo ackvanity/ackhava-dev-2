@@ -16,4 +16,6 @@ Then, the code scrambles the word, and displays it to the user.
 
 If the answer was incorrect, the user is asked to try again, if it is correct, a message will appear, stating it is correct. From there, the user can go back to the game and try another word.
 
+<div class="section-split"></div>
+
 </div>

@@ -20,7 +20,7 @@ p {
   margin-bottom: 8px;
 }
 
-a {
+a:not(.btn) {
   color: #3a96dd;
   text-decoration: underline;
 }
@@ -136,4 +136,12 @@ button, .btn {
   background-color: #3a96dd;
   border-radius: 1rem;
   display: inline-block;
+  color: white;
+  transition: all .2s;
+  margin-left: 16px;
+}
+
+button:hover, .btn:hover {
+  background-color: white;
+  color: black;
 }

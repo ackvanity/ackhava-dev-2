@@ -15,9 +15,14 @@ When I'm not thinking about the next "fun project" to do (e.g. salvaging dusty o
 
 <div class="section-split"></div>
 <div class="markdown-fetch" data-render-file="resume.md" data-blocks="11" data-heading-shift></div>
+<div class="spacing"></div>
+<a href="#resume" class="btn">See More</a>
 <div class="section-split"></div>
 <div class="markdown-fetch" data-render-file="skills-and-interests.md" data-heading-shift></div>
 <div class="section-split"></div>
 <div class="markdown-fetch" data-render-file="projects.md" data-blocks="5" data-heading-shift></div>
+<div class="spacing"></div>
+<a href="#projects" class="btn">See More</a>
+<div class="section-split"></div>
 
 <!-- <div class="markdown-fetch" data-render-file="blog.md" data-blocks="3" data-heading-shift></div> -->

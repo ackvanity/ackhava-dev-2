@@ -18,6 +18,7 @@
   width: var(--img-width);
   height: 100%;
   float: left;
+  margin-bottom: 0rem;
 }
 
 .media-card .media-content > :not(img) {
@@ -50,6 +51,10 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.media-img {
+  margin-bottom: 2rem;
 }
 
 @container media-card (max-width: 500px) {
