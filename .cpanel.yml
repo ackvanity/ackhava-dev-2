@@ -1,0 +1,16 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hepivasi/public_html/
+    - mkdir $DEPLOYPATH
+    - /bin/cp *.html $DEPLOYPATH
+    - /bin/cp *.css $DEPLOYPATH
+    - /bin/cp *.md $DEPLOYPATH
+    - /bin/cp *.png $DEPLOYPATH
+    - /bin/cp *.jpg $DEPLOYPATH
+    - /bin/cp *.mjs $DEPLOYPATH
+    - /bin/cp *.html $DEPLOYPATH
+    - /bin/cp *.js $DEPLOYPATH
+    - /bin/cp blog $DEPLOYPATH/blog -r
+    - /bin/cp media $DEPLOYPATH/media -r
+    - /bin/cp projects $DEPLOYPATH/projects -r
