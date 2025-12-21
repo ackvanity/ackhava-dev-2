@@ -9,14 +9,15 @@ Additionally I enjoy diving into the technology that makes things work and grew 
 When I'm not thinking about the next "fun project" to do (e.g. salvaging dusty old laptops, using lego for cable management, or tearing and restyling my site for no real reason) or getting my desk just right, I love listening to music, watching movies, playing musical instruments, and eating sushi - don't hesitate to send me one (hehe)!
 </div>
 <div class="img-wrap">
-<img src="personal_image_transparent.png" alt="Portrait of Ackhava Adam Malonda" loading="lazy" />
+<img src="personal_image_2.png" alt="Portrait of Ackhava Adam Malonda" loading="lazy" />
 </div>
 </div>
 
-<div class="markdown-fetch" data-render-file="resume.md" data-blocks="5" data-heading-shift></div>
-
+<div class="section-split"></div>
+<div class="markdown-fetch" data-render-file="resume.md" data-blocks="11" data-heading-shift></div>
+<div class="section-split"></div>
 <div class="markdown-fetch" data-render-file="skills-and-interests.md" data-heading-shift></div>
-
-<div class="markdown-fetch" data-render-file="projects.md" data-blocks="3" data-heading-shift></div>
+<div class="section-split"></div>
+<div class="markdown-fetch" data-render-file="projects.md" data-blocks="5" data-heading-shift></div>
 
 <!-- <div class="markdown-fetch" data-render-file="blog.md" data-blocks="3" data-heading-shift></div> -->
