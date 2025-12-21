@@ -2,7 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hepivasi/public_html/
-    - mkdir $DEPLOYPATH
     - /bin/cp *.html $DEPLOYPATH
     - /bin/cp *.css $DEPLOYPATH
     - /bin/cp *.md $DEPLOYPATH
