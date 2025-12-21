@@ -8,7 +8,7 @@
   box-sizing: border-box;
 
   text-decoration: none;
-  color: white
+  color: black;
 }
 
 #content > * {
@@ -49,15 +49,15 @@ h4, .h4 {
 }
 
 body {
-  background-color: #300a24;
-  color: white;
+  background-color: #c6d8ff;
+  color: black;
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 #content {
-  background-color: #300a24;
+  background-color: #c6d8ff;
   flex: 1;
   min-height: 0;
   overflow: auto;
@@ -73,7 +73,7 @@ em {
 }
 
 .navbar {
-  background-color: #300a24;
+  background-color: #c6d8ff;
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;

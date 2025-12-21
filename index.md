@@ -6,10 +6,10 @@ I am a 16 y.o living in Jakarta, Indonesia. I love to think about and join compe
 
 Additionally I enjoy diving into the technology that makes things work and grew on to be fond of making homemade software and hardware (and seeing/imagining them work).
 
-When I'm not thinking about the next "fun project" to do (e.g. salvaging dusty old laptops, using lego for cable management, or tearing and restyling my site for no real reason) or getting my desk just right, I love listening music, playing musical instruments, and eating sushi - don't hesitate to send me one (hehe)!
+When I'm not thinking about the next "fun project" to do (e.g. salvaging dusty old laptops, using lego for cable management, or tearing and restyling my site for no real reason) or getting my desk just right, I love listening to music, watching movies, playing musical instruments, and eating sushi - don't hesitate to send me one (hehe)!
 </div>
 <div class="img-wrap">
-<img src="personal_rect_3.png" alt="Portrait of Ackhava Adam Malonda" loading="lazy" />
+<img src="personal_image_transparent.png" alt="Portrait of Ackhava Adam Malonda" loading="lazy" />
 </div>
 </div>
 
@@ -19,4 +19,4 @@ When I'm not thinking about the next "fun project" to do (e.g. salvaging dusty o
 
 <div class="markdown-fetch" data-render-file="projects.md" data-blocks="3" data-heading-shift></div>
 
-<div class="markdown-fetch" data-render-file="blog.md" data-blocks="3" data-heading-shift></div>
+<!-- <div class="markdown-fetch" data-render-file="blog.md" data-blocks="3" data-heading-shift></div> -->

@@ -41,5 +41,5 @@ _July 2023 — Present_
 I teach private students about introductory competitive programming courses, materials about algorithms, and basic Python programming.
 
 ### Intern at PesonaEdu
-_December 2024_
+_December 2024_  
 I create an educational physics simulation app for high school students
