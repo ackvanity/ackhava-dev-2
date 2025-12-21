@@ -8,7 +8,6 @@ export DEPLOYPATH=/home/hepivasi/public_html/
 /bin/cp *.jpg $DEPLOYPATH
 /bin/cp *.mjs $DEPLOYPATH
 /bin/cp *.html $DEPLOYPATH
-/bin/cp *.js $DEPLOYPATH
 /bin/cp -r blog $DEPLOYPATH/blog
 /bin/cp -r media $DEPLOYPATH/media
 /bin/cp -r projects $DEPLOYPATH/projects
