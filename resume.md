@@ -6,6 +6,22 @@
 
 <div class="spacing"></div>
 
+### Bina Nusantara Programming Contest for High School Students (BHPC-HS) 2025
+_October 2025_  
+Gold Medalist
+
+### Olimpiade Sains Nasional Bidang Fisika
+_October 2025_  
+Silver Medalist
+
+<div class="spacing"></div>
+
+### COMPFEST Junior Competitive Programming Competition (JCPC)
+_September 2025_  
+2nd Runner Up
+
+<div class="spacing"></div>
+
 ### XXXII M.A. Alekseev International Tuymaada Olympiad for school students, 2025 - INFORMATICS  
 _July 2025_  
 First Degree Diploma Honorable mention letter: "The perfect score of the most challenging problem of Day 2"
@@ -15,6 +31,12 @@ First Degree Diploma Honorable mention letter: "The perfect score of the most ch
 ### Canadian Team Mathematics Contest by the University of Waterloo  
 _May 24, 2025_  
 My team got first place, and I got fourth place in the individual round
+
+<div class="spacing"></div>
+
+### Bina Nusantara Programming Contest for High School Students (BHPC-HS) 2024
+_November 3, 2024_
+Gold Medalist
 
 <div class="spacing"></div>
 
@@ -36,7 +58,7 @@ Third Place
 
 <div class="spacing"></div>
 
-### Indonesian NOI (OSN Informatika)  
+### Indonesian NOI (Olimpiade Sains Nasional Bidang Informatika)  
 _August 2023_  
 Silver Medalis
 
