@@ -4,6 +4,7 @@ export DEPLOYPATH=/home/hepivasi/public_html/
 /bin/cp *.html $DEPLOYPATH
 /bin/cp *.css $DEPLOYPATH
 /bin/cp *.md $DEPLOYPATH
+/bin/cp *.txt $DEPLOYPATH
 /bin/cp *.png $DEPLOYPATH
 /bin/cp *.jpg $DEPLOYPATH
 /bin/cp *.mjs $DEPLOYPATH
