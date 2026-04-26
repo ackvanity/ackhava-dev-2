@@ -11,9 +11,9 @@ export DEPLOYPATH=/home/hepivasi/public_html/
 /bin/cp *.mjs $DEPLOYPATH
 /bin/cp *.html $DEPLOYPATH
 /bin/cp minify $DEPLOYPATH
-/bin/cp -r blog $DEPLOYPATH/blog
-/bin/cp -r media $DEPLOYPATH/media
-/bin/cp -r projects $DEPLOYPATH/projects
+/bin/cp -r blog $DEPLOYPATH
+/bin/cp -r media $DEPLOYPATH
+/bin/cp -r projects $DEPLOYPATH
 
 chmod +x $DEPLOYPATH/minify
 $DEPLOYPATH/minify -i --recursive $DEPLOYPATH > $DEPLOYPATH/log.txt
