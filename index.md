@@ -25,4 +25,5 @@ When I'm not thinking about the next "fun project" to do (e.g. salvaging dusty o
 <a href="#projects" class="btn">See More</a>
 <div class="section-split"></div>
 
-<!-- <div class="markdown-fetch" data-render-file="blog.md" data-blocks="3" data-heading-shift></div> -->
+<div class="markdown-fetch" data-render-file="blog.md" data-blocks="3" data-heading-shift></div>
+<a href="#blog" class="btn">See More</a>

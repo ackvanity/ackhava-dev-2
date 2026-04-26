@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAC Plot</title>
+</head>
+<body style="width: 100%; height: 100vh; margin: 0; padding: 0;">
+  <div id="plot" style="width: 100%; height: 100%;"></div>
+  <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-cartesian.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-exports.min.js"></script>
+  <script>
+  var data=[{"x":"Behavioral energy efficiency","min":"0","max":"0"},{"x":"Corn starch ethanol (US)","min":"0.05426285856","max":"0.1497700051"},{"x":"Renewable Portfolio Standards","min":"0.05966535684","max":"0.1159703175"},{"x":"Reforestation","min":"0.05993471711","max":"0.06262433681"},{"x":"Wind energy subsidies","min":"0.06020400485","max":"0.1358877792"},{"x":"Clean Power Plan","min":"0.06289290133","max":"0.06289290133"},{"x":"Gasoline tax","min":"0.0650388249","max":"0.07384240317"},{"x":"Methane flaring regulation","min":"0.06557458704","max":"0.06557458704"},{"x":"Reducing federal coal leasing","min":"0.06958367967","max":"0.07993271724"},{"x":"CAFE Standards","min":"0.07410797215","max":"0.1497700051"},{"x":"Agricultural emissions policies","min":"0.07463889863","max":"0.07914042881"},{"x":"National Clean Energy Standard","min":"0.0749042562","max":"0.09252469894"},{"x":"Soil management","min":"0.0767597902","max":"0.0767597902"},{"x":"Livestock management policies","min":"0.08098812631","max":"0.08098812631"},{"x":"Concentrating solar power expansion (China & India)","min":"0.0896530092","max":"0.0896530092"},{"x":"Renewable fuel subsidies","min":"0.0896530092","max":"0.0896530092"},{"x":"Low carbon fuel standard","min":"0.0896530092","max":"0.6931471806"},{"x":"Solar photovoltaics subsidies","min":"0.101349049","max":"0.5544141625"},{"x":"Biodiesel","min":"0.1041873943","max":"0.1328877769"},{"x":"Energy efficiency programs (China)","min":"0.1328877769","max":"0.1470583061"},{"x":"Cash for Clunkers","min":"0.1386298973","max":"0.180079029"},{"x":"Weatherization assistance program","min":"0.161030834","max":"0.161030834"},{"x":"Dedicated battery electric vehicle subsidy","min":"0.161030834","max":"0.2378476114"},{"x":"Solar energy (Thailand, 2015)","min":"0.07543476019","max":"0.1093274724"},{"x":"Wind power (Thailand, 2015)","min":"0.06771476977","max":"0.07171530851"},{"x":"Hydro energy (Thailand, 2015)","min":"0.01222126906","max":"0.04062752322"},{"x":"E-fuel (small-scale deployment, projected values until 2050)","min":"0.302865053","max":"0.4053697838"},{"x":"E-fuel (large-scale deployment, projected values until 2050)","min":"0.06637769242","max":"0.1482918082"},{"x":"Low carbon concrete","min":"0.07516954338","max":"0.1495237906"}];
+  data = data.map((entry) => {return [entry.x, parseFloat(entry.min), parseFloat(entry.max)]});
+  </script>
+  <script>
+  chart = anychart.column();
+  var series = chart.rangeColumn(data);
+  chart.container("plot");
+  chart.draw();
+  </script>
+</body>
+</html>

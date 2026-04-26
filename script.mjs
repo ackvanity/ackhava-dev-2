@@ -1,3 +1,12 @@
+
+const options = {
+  throwOnError: false
+};
+
+marked.use(markedKatex(options));
+
+console.log(markedKatex);
+
 function shiftHeader(renderer){
   if(!renderer) renderer = new marked.Renderer();
   renderer.heading = function({ depth, text}) {
@@ -243,3 +252,5 @@ window.addEventListener('hashchange', () => {
 });
 
 applyHashRoute();
+
+console.log(marked.parse("$f(x)$"))
