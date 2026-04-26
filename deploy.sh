@@ -16,6 +16,6 @@ export DEPLOYPATH=/home/hepivasi/public_html/
 /bin/cp -r projects $DEPLOYPATH/projects
 
 chmod +x $$DEPLOYPATH/minify
-$DEPLOYPATH/minify -i $DEPLOYPATH
+$DEPLOYPATH/minify -i --recursive $DEPLOYPATH
 
 echo "Success" > $DEPLOYPATH/deploy.txt
