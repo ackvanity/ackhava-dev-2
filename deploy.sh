@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chmod +x minify
+
 export DEPLOYPATH=/home/hepivasi/public_html/
 /bin/cp *.html $DEPLOYPATH
 /bin/cp *.css $DEPLOYPATH
@@ -12,3 +14,5 @@ export DEPLOYPATH=/home/hepivasi/public_html/
 /bin/cp -r blog $DEPLOYPATH/blog
 /bin/cp -r media $DEPLOYPATH/media
 /bin/cp -r projects $DEPLOYPATH/projects
+
+minify -i $DEPLOYPATH
