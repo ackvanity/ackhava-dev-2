@@ -8,6 +8,8 @@ This project is made on April 2021 for Sonic Linguistic Programming Competition 
 
 Created using a web builder, if statements, and string concatenation to make 1125 different possible options.
 
+Try it at https://hepivasi.ackhava.dev/
+
 <div class="section-split"></div>
 
 </div>
