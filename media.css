@@ -66,3 +66,19 @@
     padding-left: 0px;
   }
 }
+
+.media-container {
+  p:has(img, video, figure) {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  ul, ol {
+    list-style-position: inside; 
+    margin-bottom: 1rem
+  }
+}

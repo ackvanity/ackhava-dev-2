@@ -149,8 +149,13 @@ button:hover, .btn:hover {
   color: black;
 }
 
-pre, code, .pre {
+pre:not(.katex *), code:not(.katex *), .pre:not(.katex *) {
   font-family: 'Courier New', Courier, monospace;
   background-color: #c6d8ff;
   /* font-weight: bolder; */
+}
+
+pre:not(.katex *) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
