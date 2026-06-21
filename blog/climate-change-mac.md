@@ -216,4 +216,9 @@ So, the key takeaway for normal people is simple: every action taken counts! Not
 
 <div class="section-split"></div>
 
+## Attachments
+
+[My research paper](<../media/Climate Change MAC Article.pdf>)
+[My presentation poster](<../media/Climate Change MAC Research Poster 2023 FINAL.pdf>)
+
 </div>
