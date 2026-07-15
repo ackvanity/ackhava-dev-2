@@ -4,23 +4,81 @@
 
 ## Achievements
 
-<div class="spacing"></div>
+<div class="achievement-card">
+
+### International Physics Olympiad (IPhO) 2026
+
+<div class="details">
+<span class="year">July 2026</span>
+<span class="location">Bucaramanga, Colombia</span>
+<span class="title">Silver Medalist</span>
+</div>
+
+<!-- <div class="description">
+The International Physics Olympiad (IPhO) is a pretigious physics high school competition, and one of the International Science Olympiads. Each year countries send teams of five students and two leaders to compete. The test consists of a theoretical and a practical exam, both taking five hours each.
+</div> -->
+
+</div>
+
+<div class="achievement-card">
+
+### Asian Physics Olympiad (APhO) 2026
+
+<div class="details">
+<span class="year">May 2026</span>
+<span class="location">Busan, Korea</span>
+<span class="title">Gold Medalist</span>
+</div>
+
+<!-- <div class="description">
+The International Physics Olympiad (APhO) is a pretigious physics high school competition for countries in the Asia and Oceania regions, and one of the International Science Olympiads. Each year countries send teams of five students and two leaders to compete. The test consists of a theoretical and a practical exam, both taking five hours each.
+</div> -->
+
+</div>
+
+<div class="achievement-card">
+
+### Asia-Pacific Informatics Olympiad (APIO) 2026
+
+<div class="details">
+<span class="year">May 2026</span>
+<span class="title">Silver Medalist</span>
+</div>
+
+</div>
+
+<div class="achievement-card">
 
 ### Bina Nusantara Programming Contest for High School Students (BHPC-HS) 2025
-_October 2025_  
-Gold Medalist
+
+<div class="details">
+<span class="year">October 2025</span>
+<span class="title">Gold Medalist</span>
+</div>
+
+</div>
+
+<div class="achievement-card">
 
 ### Olimpiade Sains Nasional Bidang Fisika
-_October 2025_  
-Silver Medalist
 
-<div class="spacing"></div>
+<div class="details">
+<span class="year"> October 2025</span>
+<span class="title">Silver Medalist</span>
+</div>
+
+</div>
+
+<div class="achievement-card">
 
 ### COMPFEST Junior Competitive Programming Competition (JCPC)
-_September 2025_  
-2nd Runner Up
 
-<div class="spacing"></div>
+<div class="details">
+<span class="year">September 2025</span>
+<span class="title">2nd Runner Up</span>
+</div>
+
+</div>
 
 ### XXXII M.A. Alekseev International Tuymaada Olympiad for school students, 2025 - INFORMATICS  
 _July 2025_  

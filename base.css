@@ -4,7 +4,43 @@
   box-sizing: border-box;
 
   text-decoration: none;
-  color: black;
+  color: var(--color-secondary-20);
+
+  --color-primary-5: lab(5 -4 -44);
+  --color-primary-10: lab(10 -4 -44);
+  --color-primary-20: lab(20 -4 -44);
+  --color-primary-30: lab(30 -4 -44);
+  --color-primary-40: lab(40 -4 -44);
+  --color-primary-50: lab(50 -4 -44);
+  --color-primary-60: lab(60 -4 -44);
+  --color-primary-70: lab(70 -4 -44);
+  --color-primary-80: lab(80 -4 -44);
+  --color-primary-90: lab(90 -4 -44);
+  --color-primary-95: lab(95 -4 -44);
+
+  --color-secondary-5: lab(5 2 -21);
+  --color-secondary-10: lab(10 2 -21);
+  --color-secondary-20: lab(20 2 -21);
+  --color-secondary-30: lab(30 2 -21);
+  --color-secondary-40: lab(40 2 -21);
+  --color-secondary-50: lab(50 2 -21);
+  --color-secondary-60: lab(60 2 -21);
+  --color-secondary-70: lab(70 2 -21);
+  --color-secondary-80: lab(80 2 -21);
+  --color-secondary-90: lab(90 2 -21);
+  --color-secondary-95: lab(95 2 -21);
+
+  --color-text-5: lab(5 -13 -15);
+  --color-text-10: lab(10 -13 -15);
+  --color-text-20: lab(20 -13 -15);
+  --color-text-30: lab(30 -13 -15);
+  --color-text-40: lab(40 -13 -15);
+  --color-text-50: lab(50 -13 -15);
+  --color-text-60: lab(60 -13 -15);
+  --color-text-70: lab(70 -13 -15);
+  --color-text-80: lab(80 -13 -15);
+  --color-text-90: lab(90 -13 -15);
+  --color-text-95: lab(95 -13 -15);
 }
 
 *:not(.katex *){
@@ -51,7 +87,7 @@ h4, .h4 {
 }
 
 body {
-  background-color: #c6d8ff;
+  background-color: var(--color-secondary-90);
   color: black;
   height: 100vh;
   display: flex;
@@ -59,7 +95,6 @@ body {
 }
 
 #content {
-  background-color: #c6d8ff;
   /* flex: 1; */
   /* min-height: 0; */
   width: 100%;
@@ -74,7 +109,6 @@ em {
 }
 
 .navbar {
-  background-color: #c6d8ff;
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +123,6 @@ em {
 }
 
 .nav-brand {
-  color: #3a96dd;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -112,7 +145,7 @@ em {
 
 .nav-links a:not(:hover) {
   background-color: transparent;
-  color: #3a96dd;
+  color: var(--color-primary-60);
 }
 
 .section-split {
@@ -135,7 +168,7 @@ em {
 
 button, .btn {
   padding: 0.75rem;
-  background-color: #3a96dd;
+  background-color: var(--color-primary-60);
   border-radius: 0.5rem;
   display: inline-block;
   color: white;
@@ -150,8 +183,7 @@ button:hover, .btn:hover {
 
 pre:not(.katex *), code:not(.katex *), .pre:not(.katex *) {
   font-family: 'Courier New', Courier, monospace;
-  background-color: #c6d8ff;
-  /* font-weight: bolder; */
+  background-color: var(--color-secondary-90);
 }
 
 pre:not(.katex *) {

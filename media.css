@@ -99,3 +99,31 @@
     margin-bottom: 1rem
   }
 }
+
+.achievement-card {
+  div.details {
+    span {
+
+      &.title {
+        font-weight: bold;
+        font-size: 1rem;
+        display: block;
+        margin-top: 0.5rem;
+      }
+
+      &.location {
+        display: none;
+      }
+
+      font-style: italic;
+
+
+    }
+
+    margin-top: 0.5rem;
+  }
+
+  margin-top: 0.5rem;
+  /* padding: 1rem;
+  background: var(--color-primary-60); */
+}
